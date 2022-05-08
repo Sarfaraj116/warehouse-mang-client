@@ -1,0 +1,66 @@
+.products-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:570px) {
+    .products-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.product-title {
+    color: blue;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Total-item {
+    color: red;
+}
+
+.product-title:hover {
+    color: red;
+    transition-duration: 2s;
+}
+
+.paigination button {
+    margin-right: 20px;
+    background-color: white;
+    color: red;
+    border: 1px solid orange;
+    margin-bottom: 80px;
+}
+
+.paigination .selected {
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.Restoke-Quantity {
+    font-size: xx-large;
+    background-color: crimson;
+    color: black;
+    text-align: center;
+}
+
+.Restoke {
+    font-size: xx-large;
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.Manage-Inventory-btn-2 {
+    margin-top: 5px;
+    background-color: coral;
+    color: black;
+    margin-bottom: 20px;
+    font-size: x-large;
+    border: 5px solid coral;
+    border-radius: 5px;
+    text-decoration: none;
+}

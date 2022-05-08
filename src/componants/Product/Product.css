@@ -1,0 +1,62 @@
+.card {
+    border: 5px solid red;
+    border-radius: 15px;
+    background-color: goldenrod;
+}
+
+.card:hover {
+    background-color: gold;
+    transition-duration: 5s;
+}
+
+.name {
+    color: crimson;
+    font-size: xx-large;
+}
+
+.suppliar {
+    color: darkgreen;
+    font-size: x-large;
+}
+
+.discription {
+    color: blue;
+    font-size: larger;
+}
+
+.quantity {
+    color: red;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.price {
+    color: blue;
+    font-size: xx-large;
+}
+
+.sold {
+    color: red;
+    font-size: x-large;
+}
+
+.Delivered-button {
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    border: 5px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.Delivered-button:hover {
+    background-color: brown;
+    color: gold;
+    border: 5px solid brown;
+    transition-duration: 5s;
+}

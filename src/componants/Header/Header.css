@@ -1,6 +1,6 @@
 .header-container nav a {
     margin-right: 20px;
-    font-size: x-large;
+    font-size: 20px;
     text-decoration: none;
     color: white;
     margin-bottom: 10px;
@@ -8,12 +8,16 @@
     text-align: center;
 }
 
+
 .header-container {
     position: sticky;
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    background-color: blue;
+    background-color: limegreen;
 }
 
 .header-container nav a:hover {
-    color: red;
+    color: rgba(255, 0, 64, 0.815);
 }

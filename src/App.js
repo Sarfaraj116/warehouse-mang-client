@@ -5,6 +5,7 @@ import Blogs from './componants/Blogs/Blogs';
 import Header from './componants/Header/Header';
 import Home from './componants/Home/Home';
 import Login from './componants/Login/Login';
+import Myitems from './componants/Myitems/Myitems';
 import NotFound from './componants/NotFound/NotFound';
 import ProductDetails from './componants/ProductDetails/ProductDetails';
 import RequireAuth from './componants/RequireAuth/RequireAuth';
@@ -26,6 +27,7 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/manageinventory" element={<ManageItem></ManageItem>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path='/myitems' element={<Myitems></Myitems>}></Route>
         
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>

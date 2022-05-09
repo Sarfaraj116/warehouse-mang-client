@@ -33,7 +33,7 @@ const InventoryItem = () => {
     return (
         <div>
             <h1 className='product-title'>Collections</h1>
-            <h2 className='text-danger'>Restoke-Quantity</h2>
+            <h2 className='text-danger'>Quantity</h2>
             <form>
                 <input className='Restoke-Quantity' type="number" placeholder='Restoke-Quantity' required></input>
                 <br />

@@ -4,9 +4,9 @@ import './NotFound.css'
 const NotFound = () => {
     return (
         <div className='not-found-container'>
-            <h1>Hy gays!!! What do you want to seaech???</h1>
-            <h2>Please give a correct website link.</h2>
-            <h1>404</h1>
+            <h3>Page Not Found</h3>
+            <h3>Please give a correct link.</h3>
+            <h3>404</h3>
         </div>
     );
 };

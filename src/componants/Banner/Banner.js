@@ -1,51 +1,47 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import './Banner.css'
-
-import banner1 from '../Banner-Image/Banner-1.jpg'
-import banner2 from '../Banner-Image/Banner-2.jpg'
-import banner3 from '../Banner-Image/Banner-3.jpg'
+import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className='carosol-container '>
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={banner1}
-                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={banner2}
-                        alt="Second slide"
-                    />
+        <div className='carosol-container'>
+            <Carousel className='container'>
+            <Carousel.Item>
+                <img style={{height: '600px'}}
+                    className="d-block w-100"
+                    src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80"
+                    alt="First slide"
+                />
+                <Carousel.Caption>
+                    <h3>Come To Fulfill Your Dream</h3>
+                    <p></p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img style={{height: '600px'}}
+                    className="d-block w-100"
+                    src="https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901__340.jpg"
+                    alt="Second slide"
+                />
 
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={banner3}
-                        alt="Third slide"
-                    />
+                <Carousel.Caption>
+                    <h3>Now or Never</h3>
+                    <p></p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img style={{height: '600px'}}
+                    className="d-block w-100"
+                    src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge_wm_brw/public/field/image/2021/04/surface-laptop-4-amd-2021-hero.jpg"
+                    alt="Third slide"
+                />
 
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+                <Carousel.Caption>
+                    <h3>Gain your Confidence Again</h3>
+                    <p> </p>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
         </div>
     );
 };

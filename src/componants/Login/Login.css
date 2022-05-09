@@ -1,12 +1,9 @@
 .SignIn-btn {
     margin-top: 30px;
-    background-color: brown;
-    color: aliceblue;
-    font-size: xx-large;
+    background-color: rgb(223, 193, 224);
+    color: rgb(31, 131, 219);
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
 }
 
-.SignIn-btn:hover {
-    background-color: deeppink;
-    color: burlywood;
-    transition-duration: 4s;
-}

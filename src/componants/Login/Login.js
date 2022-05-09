@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { createUserWithEmailAndPassword, getAuth, GithubAuthProvider, GoogleAuthProvider, sendEmailVerification, sendPasswordResetEmail, signInWithPopup, signOut } from 'firebase/auth'
+import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, sendEmailVerification, sendPasswordResetEmail, signInWithPopup, signOut } from 'firebase/auth'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import app from '../../firebase.init';
 import { } from '@fortawesome/free-solid-svg-icons';
@@ -16,7 +16,7 @@ const Login = () => {
     const [user, setUser] = useState({});
     const [error, setError] = useState('');
     const googleProvider = new GoogleAuthProvider();
-    const githubProvider = new GithubAuthProvider();
+    
     const handleGoogleSignIn = () => {
         signInWithPopup(auth, googleProvider)
             .then(result => {
@@ -26,16 +26,6 @@ const Login = () => {
             })
             .catch(error => {
                 console.log(error)
-            })
-    }
-    const handleGithubSignIn = () => {
-        signInWithPopup(auth, githubProvider)
-            .then(result => {
-                const user = result.user
-                console.log(user)
-            })
-            .catch(error => {
-                console.error(error)
             })
     }
     const handleSignOut = () => {
@@ -111,11 +101,11 @@ const Login = () => {
     return (
         <div>
             <div className='container-login w-50 mx-auto'>
-                <h2 className='text-primary text-center mt-2'>please Login</h2>
+                <h2 className='text-primary text-center mt-2'>Please Login</h2>
                 <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
-                        <Form.Control onBlur={handleEmailBlur} type="email" placeholder="Enter email" required />
+                        <Form.Control onBlur={handleEmailBlur} type="email" placeholder="" required />
                         <Form.Control.Feedback type="invalid">
                             Please give a valid email.
                         </Form.Control.Feedback>
@@ -123,7 +113,7 @@ const Login = () => {
 
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
-                        <Form.Control onBlur={handlePasswordBlur} type="password" placeholder="Password" required />
+                        <Form.Control onBlur={handlePasswordBlur} type="password" placeholder="" required />
                         <Form.Control.Feedback type="invalid">
                             Please give a valid password.
                         </Form.Control.Feedback>
@@ -133,7 +123,7 @@ const Login = () => {
                         Sign In
                     </Button>
                     <br />
-                    <Button className='mt-2' onClick={handlePasswordReset} variant="danger" type="submit">
+                    <Button className=' mt-2' onClick={handlePasswordReset} variant="" type="submit">
                         Forget Password?
                     </Button>
                 </Form>
@@ -143,12 +133,10 @@ const Login = () => {
                 user.email ? <button className='SignIn-btn' onClick={handleSignOut}>Sign Out</button>
                     :
                     <div><button className='SignIn-btn' onClick={handleGoogleSignIn}>Google Sign In</button>
-                        <br />
-                        <button className='SignIn-btn' onClick={handleGithubSignIn}>Github Sign In</button>
                     </div>
             }
-            <h1>Name:{user.displayName}</h1>
-            <h2>Email Address : {user.email}</h2>
+            <p>Name:{user.displayName}</p>
+            <p>Email Address : {user.email}</p>
             <img src={user.photoURL} alt="" />
         </div >
     );

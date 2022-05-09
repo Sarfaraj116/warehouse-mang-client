@@ -135,8 +135,8 @@ const Login = () => {
                     <div><button className='SignIn-btn' onClick={handleGoogleSignIn}>Google Sign In</button>
                     </div>
             }
-            <p>Name:{user.displayName}</p>
-            <p>Email Address : {user.email}</p>
+            <p>{user.displayName}</p>
+            <p> {user.email}</p>
             <img src={user.photoURL} alt="" />
         </div >
     );

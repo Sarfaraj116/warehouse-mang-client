@@ -1,0 +1,17 @@
+.formm input{
+ background-color: rgb(14, 233, 233);
+ display: block;
+ margin-top: px;
+ width: 50%;
+ margin: 0 auto;
+ border: 1px solid gray;
+ border-radius: 5px;
+ 
+ 
+
+}
+.formm{
+    
+    align-items: center;
+    width: 100%;
+}

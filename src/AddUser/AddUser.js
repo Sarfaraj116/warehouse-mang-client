@@ -1,4 +1,5 @@
 import React from 'react';
+import './Adduser.css';
 
 const AddUser = () => {
     const handleAddRestoke = event => {
@@ -27,22 +28,22 @@ const AddUser = () => {
     }
     return (
         <div>
-            <h1 className='mt-2 text-success'>Please Add for restoke.</h1>
-            <form onSubmit={handleAddRestoke}>
+            <h1 className='mt-2 text-success'>Please Add restoke.</h1>
+            <form className='formm' onSubmit={handleAddRestoke}>
                 <input type="text" name="name" placeholder='Name' required />
-                <br />
+                
                 <input type="text" name="image" placeholder='Image' required />
-                <br />
+                
                 <input type="text" name="discription" placeholder='Discription' required />
-                <br />
+                
                 <input type="text" name="quantity" placeholder='Quantity' required />
-                <br />
+                
                 <input type="text" name="supplier" placeholder='Supplier' required />
-                <br />
+                
                 <input type="text" name="price" placeholder='Price' required />
-                <br />
+                
                 <input type="text" name="sold" placeholder='Sold' required />
-                <br />
+                
                 <input type="submit" value="Restoke Hear" />
             </form>
         </div>

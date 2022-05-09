@@ -1,17 +1,14 @@
 .container {
     width: auto;
-    border: 10px solid lightcoral;
-    border-radius: 10px;
+    
+    border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    background-color: blanchedalmond;
+   
 }
 
-.container:hover {
-    background-color: brown;
-    transition-duration: 5s;
-}
+
 
 .card-container {
     display: grid;
@@ -48,25 +45,25 @@
 }
 
 .Update-button {
-    background-color: coral;
+    background-color: rgb(19, 209, 98);
     color: black;
     padding-left: 5px;
     padding-right: 5px;
     font-size: x-large;
-    border: 5px solid coral;
+    border: 1px solid coral;
     border-radius: 5px;
     text-decoration: none;
 }
 
 .Update-button:hover {
-    background-color: brown;
-    color: wheat;
-    border: 5px solid brown;
-    transition-duration: 5s;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid brown;
+    
 }
 
 .title {
-    color: red;
+    color: rgb(216, 41, 94);
     font-size: xx-large;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -74,12 +71,12 @@
 
 .title:hover {
     color: white;
-    transition-duration: 4s;
+    
 }
 
 .Manage-Inventory-btn-1 {
     margin-top: 20px;
-    background-color: coral;
+    background-color: rgb(23, 219, 187);
     color: black;
     font-size: x-large;
     border: 5px solid coral;

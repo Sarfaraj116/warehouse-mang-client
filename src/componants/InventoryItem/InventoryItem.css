@@ -24,7 +24,7 @@
 }
 
 .product-title:hover {
-    color: red;
+    color: rgb(194, 25, 236);
     transition-duration: 2s;
 }
 
@@ -43,15 +43,17 @@
 
 .Restoke-Quantity {
     font-size: xx-large;
-    background-color: crimson;
+    background-color: rgb(20, 220, 143);
     color: black;
     text-align: center;
+    border: none;
 }
 
 .Restoke {
     font-size: xx-large;
-    background-color: crimson;
+    background-color: rgb(20, 220, 220);
     color: aliceblue;
+    border: none;
 }
 
 .Manage-Inventory-btn-2 {

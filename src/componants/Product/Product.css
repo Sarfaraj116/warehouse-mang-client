@@ -1,56 +1,56 @@
 .card {
-    border: 5px solid red;
-    border-radius: 15px;
-    background-color: goldenrod;
+    border: 1px solid rgb(255, 0, 212);
+    border-radius: 10px;
+    
 }
 
 .card:hover {
-    background-color: gold;
-    transition-duration: 5s;
+    background-color: rgb(15, 171, 199);
+    transition-duration: 1s;
 }
 
 .name {
-    color: crimson;
+    color: rgb(20, 220, 70);
     font-size: xx-large;
 }
 
 .suppliar {
     color: darkgreen;
-    font-size: x-large;
+    font-size: 20px;
 }
 
 .discription {
     color: blue;
-    font-size: larger;
+    font-size: 20px;
 }
 
 .quantity {
-    color: red;
-    font-size: xx-large;
+    color: rgb(255, 0, 200);
+    font-size: 20px;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .price {
     color: blue;
-    font-size: xx-large;
+    font-size: 20px;
 }
 
 .sold {
-    color: red;
-    font-size: x-large;
+    color: rgb(20, 150, 224);
+    font-size: 20px;
 }
 
 .Delivered-button {
-    background-color: red;
+    background-color: rgb(168, 230, 24);
     color: white;
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
     font-size: x-large;
-    border: 5px solid white;
-    border-radius: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
     text-decoration: none;
 }
 

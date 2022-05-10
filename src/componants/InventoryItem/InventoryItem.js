@@ -18,7 +18,7 @@ const InventoryItem = () => {
             })
     }, [])
     useEffect(() => {
-        fetch(`https://morning-savannah-32688.herokuapp.com/laptop?page=${page}&size=${size}`)
+        fetch(`https://morning-savannah-32688.herokuapp.com/car?page=${page}&size=${size}`)
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [page, size])

@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "warhouse-manage-assignment11"
-  }
+    "default": "warhouse-manage-assignment11",
+    "nothing": "fir-manage-assignment"
+  },
+  "targets": {}
 }

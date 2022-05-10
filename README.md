@@ -1,10 +1,10 @@
 #Assignment-11
 
-#Tittle:Laptop werwhouse website with nodejs and mongodb.
+#Tittle: Car werwhouse website with nodejs and mongodb.
 
 #Github link by [https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-Sarfaraj116](https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-Sarfaraj116)
 
-## Live Site Link:[https://laptop-werehouse-website.web.app/](https://laptop-werehouse-website.web.app/)
+## Live Site Link:[https://fir-manage-assignment.web.app/](https://fir-manage-assignment.web.app/)
 
 
 * I use react Icon and Hero Icon.

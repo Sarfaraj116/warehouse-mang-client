@@ -5,7 +5,7 @@ const Product = ({ product }) => {
     const { name, image, discription, price, quantity, supplier, sold } = product;
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch('https://intense-spire-59334.herokuapp.com/user')
+        fetch('https://morning-savannah-32688.herokuapp.com/user')
             .then(res => res.json())
             .then(data => setUsers(data));
     }, [])

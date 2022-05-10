@@ -4,15 +4,15 @@ import './DeleteItem.css'
 const DeleteItem = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch('https://intense-spire-59334.herokuapp.com/user')
+        fetch('https://morning-savannah-32688.herokuapp.com/user')
             .then(res => res.json())
             .then(data => setUsers(data));
     }, [])
-    const handleLaptopDelivered = id => {
+    const handleCarDelivered = id => {
         const proceed = window.confirm('Do you want to delete?')
         if (proceed) {
             console.log('Delete user with id,', id)
-            const url = `https://intense-spire-59334.herokuapp.com/user/${id}`
+            const url = `https://morning-savannah-32688.herokuapp.com//user/${id}`
             fetch(url, {
                 method: 'Delete'
             })
@@ -42,7 +42,7 @@ const DeleteItem = () => {
                             <p className="suppliar">Supplier : {user.supplier}</p>
                             <p className="price">Price : $ {user.price}</p>
                             <p className="price">Price : $ {user.price}</p>
-                            <button onClick={() => handleLaptopDelivered(user._id)} className='Delivered-button'>Delete<TrashIcon className='Icon'></TrashIcon></button>
+                            <button onClick={() => handleCarDelivered(user._id)} className='Delivered-button'>Delete<TrashIcon className='Icon'></TrashIcon></button>
                         </p>)
                     }
                 </div>

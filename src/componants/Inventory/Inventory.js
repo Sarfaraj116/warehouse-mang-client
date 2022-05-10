@@ -25,11 +25,11 @@ const Inventory = () => {
                     <div class="card">
                         <img src={image1} class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="name">Dell-g3</h5>
-                            <p class="discription">It has 128 GB SSD and 1TB HDD.It is black color.It is 15 inche HD display</p>
+                            <h5 class="name">BMW X7</h5>
+                            <p class="discription">It has the powerful engine. People love this brand.</p>
                             <p class="quantity">Quantity:4</p>
-                            <p class="suppliar">Supplier : AR TELECOM</p>
-                            <p class="price">Price : $ 30000</p>
+                            <p class="suppliar">Supplier : BMW</p>
+                            <p class="price">Price : $ 3000k</p>
                             <Link to="/productdetails" className='Update-button' onClick={navigateProductDetails}>Update</Link>
                         </div>
                     </div>
@@ -38,11 +38,11 @@ const Inventory = () => {
                     <div class="card">
                         <img src={image2} class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="name">Asus-core i7</h5>
-                            <p class="discription">It is Asus brand laptop,it has 512GB SSD and 1TB HDD,It is white color.</p>
+                            <h5 class="name">BMW X4</h5>
+                            <p class="discription">It is reknown car in the world. It has comfort.</p>
                             <p class="quantity">Quantity:2</p>
-                            <p class="suppliar">Supplier : AR TELECOM</p>
-                            <p class="price">Price : $ 80000</p>
+                            <p class="suppliar">Supplier : BMW</p>
+                            <p class="price">Price : $ 800K</p>
                             <Link to="/productdetails" className='Update-button' onClick={navigateProductDetails}>Update</Link>
                         </div>
                     </div>
@@ -51,11 +51,11 @@ const Inventory = () => {
                     <div class="card">
                         <img src={image3} class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="name">Apple-Y10</h5>
-                            <p class="discription">It is Apple brand laptop.It is 10 generation laptop.It is white color.</p>
+                            <h5 class="name">Audi R7</h5>
+                            <p class="discription">Audi is known as the smart car in the world.</p>
                             <p class="quantity">Quantity:3</p>
-                            <p class="suppliar">Supplier : AR TELECOM</p>
-                            <p class="price">Price : $ 75000</p>
+                            <p class="suppliar">Supplier : Audi</p>
+                            <p class="price">Price : $ 75k</p>
                             <Link to="/productdetails" className='Update-button' onClick={navigateProductDetails}>Update</Link>
                         </div>
                     </div>
@@ -64,11 +64,11 @@ const Inventory = () => {
                     <div class="card">
                         <img src={image4} class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="name">Acer-Core i3</h5>
-                            <p class="discription">It is Acer brand laptop,it has no SSD only has 1TB HDD, it is black colour.</p>
+                            <h5 class="name">Audi</h5>
+                            <p class="discription">It is reknown car in the world. It has comfort.</p>
                             <p class="quantity">Quantity:5</p>
-                            <p class="suppliar">Supplier : AR TELECOM</p>
-                            <p class="price">Price : $ 44000</p>
+                            <p class="suppliar">Supplier : Audi</p>
+                            <p class="price">Price : $ 440k</p>
                             <Link to="/productdetails" className='Update-button' onClick={navigateProductDetails}>Update</Link>
                         </div>
                     </div>
@@ -77,11 +77,11 @@ const Inventory = () => {
                     <div class="card">
                         <img src={image5} class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="name">Acer-Core i5</h5>
-                            <p class="discription">It is Acer brand laptop,it has 128GB SSD and 500GB HDD,It has keybord backlight.It is ass colour laptop.</p>
+                            <h5 class="name">Aston Martin</h5>
+                            <p class="discription">It is the pride of london. People of england love this car.It is alsothe most expensive car in UK.</p>
                             <p class="quantity">Quantity:9</p>
-                            <p class="suppliar">Supplier : AR TELECOM</p>
-                            <p class="price">Price : $ 58000</p>
+                            <p class="suppliar">Supplier : Aston Martin</p>
+                            <p class="price">Price : $ 580k</p>
                             <Link to="/productdetails" className='Update-button' onClick={navigateProductDetails}>Update</Link>
                         </div>
                     </div>
@@ -90,11 +90,11 @@ const Inventory = () => {
                     <div class="card">
                         <img src={image6} class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="name">Asus-Core i7</h5>
-                            <p class="discription">It is Asus brand laptop,it has 512GB SSD and 1TB HDD,It is blue color.It is very beautiful laptop.</p>
+                            <h5 class="name">MacLarn</h5>
+                            <p class="discription">It is the classy car and modified with color. it will cost a little heigh but looks good.</p>
                             <p class="quantity">Quantity:5</p>
-                            <p class="suppliar">Supplier : AR TELECOM</p>
-                            <p class="price">Price : $ 95000</p>
+                            <p class="suppliar">Supplier : MacLarn</p>
+                            <p class="price">Price : $ 950k</p>
                             <Link to="/productdetails" className='Update-button' onClick={navigateProductDetails}>Update</Link>
                         </div>
                     </div>

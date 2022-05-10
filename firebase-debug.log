@@ -1,0 +1,77 @@
+[debug] [2022-05-10T15:47:09.833Z] ----------------------------------------------------------------------
+[debug] [2022-05-10T15:47:09.835Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sarfaraj Shaikat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-10T15:47:09.836Z] CLI Version:   10.8.0
+[debug] [2022-05-10T15:47:09.836Z] Platform:      win32
+[debug] [2022-05-10T15:47:09.836Z] Node Version:  v16.14.0
+[debug] [2022-05-10T15:47:09.837Z] Time:          Tue May 10 2022 21:47:09 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-05-10T15:47:09.837Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-10T15:47:09.931Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-10T15:47:09.932Z] > authorizing via signed-in user (sarfarajshaikat@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Projects\warhouse-manage-assignment11
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-10T15:52:33.901Z] Using project from CLI flag: laptop-werehouse-website
+[debug] [2022-05-10T15:52:33.905Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/laptop-werehouse-website [none]
+[debug] [2022-05-10T15:52:34.774Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/laptop-werehouse-website 403
+[debug] [2022-05-10T15:52:34.775Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/laptop-werehouse-website {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-10T15:52:34.777Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-10T15:52:35.056Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Sarfaraj Shaikat\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Sarfaraj Shaikat\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project laptop-werehouse-website. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-10T16:27:25.989Z] ----------------------------------------------------------------------
+[debug] [2022-05-10T16:27:25.993Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sarfaraj Shaikat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-10T16:27:25.993Z] CLI Version:   10.8.0
+[debug] [2022-05-10T16:27:25.994Z] Platform:      win32
+[debug] [2022-05-10T16:27:25.994Z] Node Version:  v16.14.0
+[debug] [2022-05-10T16:27:25.995Z] Time:          Tue May 10 2022 22:27:25 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-05-10T16:27:25.995Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-10T16:27:26.086Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-10T16:27:26.087Z] > authorizing via signed-in user (sarfarajshaikat@gmail.com)
+[debug] [2022-05-10T16:27:26.087Z] [iam] checking project laptop-werehouse-website for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-10T16:27:26.089Z] > refreshing access token with scopes: []
+[debug] [2022-05-10T16:27:26.090Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-10T16:27:26.430Z] <<< HTTP RESPONSE 200 {"date":"Tue, 10 May 2022 16:27:24 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-10T16:27:26.515Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/laptop-werehouse-website:testIamPermissions [none]
+[debug] [2022-05-10T16:27:26.515Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/laptop-werehouse-website:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-05-10T16:27:28.140Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/laptop-werehouse-website:testIamPermissions 200
+[debug] [2022-05-10T16:27:28.141Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/laptop-werehouse-website:testIamPermissions {}
+[debug] [2022-05-10T16:27:28.142Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project laptop-werehouse-website:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2022-05-10T16:27:28.145Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/laptop-werehouse-website [none]
+[debug] [2022-05-10T16:27:28.772Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/laptop-werehouse-website 403
+[debug] [2022-05-10T16:27:28.773Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/laptop-werehouse-website {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-10T16:27:28.775Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-10T16:27:29.044Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Sarfaraj Shaikat\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Sarfaraj Shaikat\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project laptop-werehouse-website. Please make sure the project exists and your account has permission to access it.

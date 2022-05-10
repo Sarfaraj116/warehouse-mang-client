@@ -9,7 +9,7 @@ const InventoryItem = () => {
     const [page, setPage] = useState(0);
     const [size, setSize] = useState(3);
     useEffect(() => {
-        fetch('https://intense-spire-59334.herokuapp.com/laptopcount')
+        fetch('https://morning-savannah-32688.herokuapp.com/carcount')
             .then(res => res.json())
             .then(data => {
                 const count = data.count;
@@ -18,7 +18,7 @@ const InventoryItem = () => {
             })
     }, [])
     useEffect(() => {
-        fetch(`https://intense-spire-59334.herokuapp.com/laptop?page=${page}&size=${size}`)
+        fetch(`https://morning-savannah-32688.herokuapp.com/laptop?page=${page}&size=${size}`)
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [page, size])

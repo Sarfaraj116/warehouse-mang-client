@@ -9,10 +9,10 @@ const ExtraSection = () => {
                 <div className="row align-items-center">
                     <div className="col col-12 col-lg-6">
                         <h2>About our warehouse</h2>
-                        <p>The stunning collection of Laptops, which has grown gradually at the site on a business park in Tottenham have been given guide prices of up to £25,000 with the most expensive being a 1960 MG MGA Laptop house.</p>
+                        <p>The stunning collection of Cars, which has grown gradually at the site on a business park in Tottenham have been given guide prices of up to £25,000 with the most expensive being a 1960 MG MGA Car house.</p>
                     </div>
                     <div className="col col-12 col-lg-6">
-                        <img style={{ width: '120%' }} src="https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Amazon_Warehouse_Wikimedia%20Commons%20-%20%C3%81lvaro%20Ib%C3%A1%C3%B1ez.JPG" alt="" />
+                        <img style={{ width: '120%' }} src="https://www.classicdriver.com/sites/default/files/article_images/online-warehouse-auction.jpg" alt="" />
                     </div>
                 </div>
             </div>

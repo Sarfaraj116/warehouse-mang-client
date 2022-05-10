@@ -8,7 +8,7 @@ const ExtraSection = () => {
              <div className='bg-white border'>
                 <div className="row align-items-center">
                     <div className="col col-12 col-lg-6">
-                        <h2>About our warhouse</h2>
+                        <h2>About our warehouse</h2>
                         <p>The stunning collection of Laptops, which has grown gradually at the site on a business park in Tottenham have been given guide prices of up to £25,000 with the most expensive being a 1960 MG MGA Laptop house.</p>
                     </div>
                     <div className="col col-12 col-lg-6">
